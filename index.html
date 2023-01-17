@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeautyBox</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amarante&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+</head>
+
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>BeautyBox</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#inicio">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#promocoes">Promoções</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#marcas">Marcas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#makeup">Maquiagem</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#perfume">Perfumaria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button id="btn-carrinho" class="btn btn-light" type="button">Carrinho</button>
+            </div>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+
+        <section id="inicio">
+            <div class="container">
+                <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div data-bs-interval="3000" class="carousel-item active">
+                            <img class="d-block w-100" src="./images/girl-2189247_960_720.jpg">
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item">
+                            <img class="d-block w-100" src="./images/fragrance-1991531_960_720 (1).jpg">
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item">
+                            <img class="d-block w-100" src="./images/makeup-brushes-1761648_960_720.jpg">
+                        </div>
+                    </div>
+                    <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev"
+                        type="button">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next"
+                        type="button">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel-exemplo" class="active"
+                            data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="promocoes">
+            <div class="row" id="promocoes">
+                <div class="col-md-8">
+                    <h2>Promoções</h2>
+                    <div class="container g-0">
+                        <div class="row">
+                            <div class="col-md-4 post">
+                                <img src="./images/healthy_mix_foundation_16h_52-vanille_30_ml.jpg" />
+                                <h4 class="h5">HEALTHY MIX FOUNDATION 16H BASE</h4>
+                                <p>
+                                    BOURJOIS HEALTHY MIX FOUNDATION 16H BASE COR 52 VANILLE 30ML</br>
+
+                                </p>
+                                <div class="price">
+                                    <del>R$62,99</del>
+                                    <strong> R$55,99</strong>
+                                </div>
+                                <button type="button" class="buy">Adicionar ao carrinho</button>
+                            </div>
+                            <div class="col-md-4 post">
+                                <img src="./images/nyxtriobuttergloss.jpg" />
+                                <h4 class="h5">NYX TRIO BUTTER GLOSS</h4>
+                                <p>
+                                    Kit com 3 gloss: 1 Cor Crème Brulee</br>
+                                    1 Cor Cinnamon Roll e 1 Cor Sugar Glass</br>
+                                </p>
+                                <div class="price">
+                                    <del>R$102,99</del>
+                                    <strong> R$92,90</strong>
+                                </div>
+                                <button type="button" class="buy">Adicionar ao carrinho</button>
+                            </div>
+                            <div class="col-md-4 post">
+                                <img src="./images/high_impact_extreme_volume_mascara_01-extreme_black_10_ml.jpg" />
+                                <h4 class="h5">HIGH IMPACT EXTREME VOLUME</h4>
+                                <p>
+                                    CLINIQUE HIGH IMPACT EXTREME VOLUME MÁSCARA DE CÍLIOS EXTREME BLACK 10ML</br>
+                                </p>
+                                <div class="price">
+                                    <del>R$215,99</del>
+                                    <strong> R$106,99</strong>
+                                </div>
+                                <button type="button" class="buy">Adicionar ao carrinho</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+        <section id="marcas">
+            <div class="container">
+                <h2>Marcas</h2>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card text-bg-dark">
+                            <img src="./images/mac.jpg" />
+                            <div class="card-img-overlay">
+                                <a href="#" class="btn btn-primary"> Botão Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card text-bg-dark">
+                            <img src="./images/CA.png" />
+                            <div class="card-img-overlay">
+                                <a href="#" class="btn btn-primary"> Botão Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card text-bg-dark">
+                            <img src="./images/lancome-marca.png" />
+                            <div class="card-img-overlay">
+                                <a href="#" class="btn btn-primary"> Botão Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="makeup">
+            <div class="row" id="makeup">
+                <div class="col-md-8">
+                    <h2>Maquiagem</h2>
+                    <div class="container g-0">
+                        <div class="row">
+                            <div class="col-md-4 post">
+                                <img src="/images/urbandecay_nakedheat_eyeshadowpalette.jpg" />
+                                <h4 class="h5">URBAN DECAY NAKED HEAT</h4>
+                                <p>
+                                    PALETA DE SOMBRAS</br>
+                                </p>
+                                <div class="price">
+                                    <strong> R$293,99</strong>
+                                </div>
+                                <button type="button" class="buy">Adicionar ao carrinho</button>
+                            </div>
+                            <div class="col-md-4 post">
+                                <img src="./images/rouge_allure_laque_79-_ternit_6_ml.jpg" />
+                                <h4 class="h5">CHANEL ROUGE ALLURE LAQUE BATOM</h4>
+                                <p>
+                                    BRILHANTE COR 79 ÉTERNITÉ 6ML</br>
+                                </p>
+                                <div class="price">
+                                    <strong> R$173,99</strong>
+                                </div>
+                                <button type="button" class="buy">Adicionar ao carrinho</button>
+                            </div>
+                            <div class="col-md-4 post">
+                                <img src="./images/urbandecay_born_to_run_eyeshadow_palette.jpg" />
+                                <h4 class="h5">URBAN DECAY BORN TO RUN</h4>
+                                <p>
+                                    PALETA DE SOMBRAS</br>
+                                </p>
+                                <div class="price">
+                                    <strong> R$307,99,00</strong>
+                                </div>
+                                <button type="button" class="buy">Adicionar ao carrinho</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+        <section id="perfume">
+            <div class="row" id="perfume">
+                <div class="col-md-8">
+                    <h2>Perfumes</h2>
+                    <div class="container g-0">
+                        <div class="row">
+                            <div class="col-md-4 post">
+                                <img src="/images/lady milllion.jpg" />
+                                <h4 class="h5">LADY MILLION FEMININO EAU DE PARFUM </h4>
+                                <p>
+                                    PERFUME PACO RABANNE LADY MILLION FEMININO EAU DE PARFUM</br>
+                                    80ml</br>
+                                </p>
+                                <div class="price">
+                                    <strong> R$669,00</strong>
+                                </div>
+                                <button type="button" class="buy">Adicionar ao carrinho</button>
+                            </div>
+                            <div class="col-md-4 post">
+                                <img src="./images/la vie est belle.jpg" />
+                                <h4 class="h5">LA VIE EST BELLE FEMININO EAU DE PARFUM</h4>
+                                <p>
+                                    PERFUME LANCÔME LA VIE EST BELLE FEMININO EAU DE PARFUM</br>
+                                    100ml</br>
+                                </p>
+                                <div class="price">
+                                    <strong> R$749,00</strong>
+                                </div>
+                                <button type="button" class="buy">Adicionar ao carrinho</button>
+                            </div>
+                            <div class="col-md-4 post">
+                                <img src="./images/scandal.jpg" />
+                                <h4 class="h5">SO SCANDAL FEMININO EAU DE PARFUM</h4>
+                                <p>
+                                    PERFUME JEAN PAUL GAULTIER SO SCANDAL FEMININO EAU DE PARFUM</br>
+                                    80ml</br>
+                                </p>
+                                <div class="price">
+                                    <strong> R$699,00</strong>
+                                </div>
+                                <button type="button" class="buy">Adicionar ao carrinho</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section id="contato">
+            <div class="row">
+                <div class="col">
+                    <h2>Entre em contato</h2>
+                    <form class="form-campo">
+                        <label class="form-label" for="nome">Seu nome: </label>
+                        <input class="form-control" type="text" id="nome" />
+                        <label for="email" class="form-label">Seu email: </label>
+                        <input id="email" type="email" class="form-control">
+                        <label for="mensagem" class="form-label"> Sua mensagem:</label>
+                        <textarea id="mensagem" class="form-control"></textarea>
+                        <button class="btn btn-success">Enviar</button>
+                    </form>
+                </div>
+            </div>
+    </div>
+    </section>
+
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div class="toast" id="mensagens-alerta">
+            <header class="toast-header">
+                <strong>Seu carrinho</strong>
+            </header>
+            <div class="toast-body">
+                Você possui 3 itens no seu carrinho
+            </div>
+            <div class="mt-2 pt-2 border-top">
+                <button data-bs-dismiss="toast" class="btn btn-danger" type="button">
+                    Descartar
+                </button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

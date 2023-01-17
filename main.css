@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 16px 0;
+    background-color: #6A097D;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 56px;
+    font-weight: bold;
+}
+
+header h1 {
+    font-family: 'Amarante', cursive;
+    font-size: 50px;
+}
+
+section {
+    height: 100vh;
+    background-color: white;
+    padding-top: 70px;
+}
+
+.carousel-inner .carousel-item {
+    width: 1300px;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#inicio {
+    padding: 10px;
+}
+
+.carousel-inner {
+    width: 40%;
+}
+
+.navbar-nav .nav-link.active {
+    color: #fff;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+#promocoes,
+#makeup,
+#perfume {
+    justify-content: center;
+}
+
+
+#promocoes h2,
+#makeup h2,
+#perfume h2,
+#marcas h2 {
+    font-size: 40px;
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+
+.row {
+    list-style: none;
+    margin-bottom: 50px;
+    padding: 20px;
+    align-items: center;
+    display: block;
+}
+
+.post img {
+    max-width: 100%;
+}
+
+#promocoes button,
+#makeup button,
+#perfume button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #C060A1;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.price {
+    margin: 16px 0;
+    display: block;
+}
+
+.price del {
+    color: red;
+    font-size: 14px;
+}
+
+.form-campo {
+    margin-bottom: 16px;
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input,
+.form-campo textarea {
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+.form-campo textarea {
+    resize: none;
+    height: 120px;
+}
+
+form {
+    max-width: 500px;
+}
+
+form button {
+    max-width: 120px;
+    margin-top: 5px;
+}
